@@ -302,7 +302,7 @@ int main(int argc, char *argv[])
 	if(argc < 7){
 		std::cout << std::endl;
 		cout << "Not enough arguments provided." << endl;
-		cout << "Usage: ./individualMarkersNoKinect <marker size in cm> <max new marker error> "
+		cout << "Usage: ./individualMarkersNoKinect <marker size in m> <max new marker error> "
 			 << "<max track error> <cam image topic> <cam info topic> <output frame> [ <max frequency> <marker_resolution> <marker_margin>]";
 		std::cout << std::endl;
 		return 0;
